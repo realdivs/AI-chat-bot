@@ -1,0 +1,40 @@
+* {
+  background-color: #d4f6ff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding-top: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1,
+button {
+  color: #27548a;
+  background-color: #c4d9ff;
+}
+
+button {
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid #27548a;
+}
+
+p {
+  width: 80%;
+}
